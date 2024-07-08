@@ -27,8 +27,8 @@ export default function Home() {
     fetchUsers()
   },[])
   return (
-    <main className={styles.main}>
-      
-    </main>
+    <h1 className="text-3xl text-blue font-bold underline">
+      Hello world!
+    </h1>
   );
 }
