@@ -11,10 +11,10 @@ import { User } from './user/entities/user.entity';
       type: 'postgres',
       host: 'localhost',
       port: 5432,
-      password: 'monster@DJ@0212', // replace with your own password
+      password: 'secret', 
       username: 'postgres', 
       entities: [User],
-      database: 'notesdb', // make new table in your postgres user with command "CREATE DATABASE notesdb;"
+      database: 'notesdb', 
       synchronize: true,
       logging: true,
     }),
