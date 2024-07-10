@@ -5,6 +5,8 @@ import axios from "axios";
 import { useRouter } from "next/navigation";
 type LayoutType = Parameters<typeof Form>[0]["layout"];
 
+
+
 const CreationPage = () => {
     const router = useRouter();
   const [name, setName] = useState("");
